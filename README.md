@@ -54,12 +54,12 @@ git clone https://github.com/tu-usuario/clientes-cuentas-microservicio.git
 cd clientes-cuentas-microservicio
 
 # Ejecutar con Maven
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
 
 O en Windows:
 ```bash
-mvnw.cmd spring-boot:run
+mvn spring-boot:run
 ```
 
 La aplicación estará disponible en `http://localhost:8080`
@@ -82,10 +82,10 @@ Acceder a la documentación interactiva de la API:
 
 ```bash
 # Ejecutar todos los tests
-./mvnw test
+mvn test
 
 # Windows
-mvnw.cmd test
+mvn test
 ```
 
 ## Endpoints disponibles
